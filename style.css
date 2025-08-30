@@ -1,0 +1,53 @@
+body {
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+              url('https://images.pexels.com/photos/209831/pexels-photo-209831.jpeg') no-repeat center center fixed;
+  background-size: cover;
+  font-family: Arial, sans-serif;
+}
+
+.weather-card {
+  width: 300px;
+  padding: 20px;
+  border-radius: 20px;
+  background: #6d6f7c7a;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+  text-align: center;
+  color: #fff;
+  margin: 20px;
+}
+
+#city {
+  font-size: 25px;
+  margin: 5px 0;
+}
+
+#temperature {
+  font-size: 50px;
+  margin: 10px 0;
+}
+
+#description {
+  font-size: 15px;
+  margin-bottom: 16px;
+}
+
+.hourly, .daily {
+  display: flex;
+  justify-content: space-between;
+  margin: 16px 0;
+}
+
+.hour, .day {
+  text-align: center;
+  font-size: 13px;
+}
+
+.hour img, .day img {
+  width: 30px;
+  margin: 5px 0;
+}
